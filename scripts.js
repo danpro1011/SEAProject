@@ -564,7 +564,7 @@ const SongData = [
     },
 ];
 /**
- * Displays the most popular song in the card-container element of the webpage 
+ * Function that displays the most popular song in the card-container element of the webpage 
  * The most popular song is determined by the song with the highest number of streams
  */
 function showMostPopularSong() {
@@ -595,7 +595,7 @@ function showMostPopularSong() {
 }
 
 /**
- * Defined a function that displays the song appearing in the most Spotify Playlists
+ * Function that displays the song appearing in the most Spotify Playlists
  */
 function showPlaylistCount() {
     const cardContainer = document.getElementById("card-container");
