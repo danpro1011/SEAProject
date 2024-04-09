@@ -1,39 +1,28 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Top Songs</title>
-    <meta name="description" content="A Catalog of the Top Songs of all Time">
-    <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header class="main-header">
-        <h1 class="title">LA TV Shows</h1>
+        <h1 class="title">Top Songs</h1>
     </header>
-    <div id="card-container">
-        
-    </div>
-    <div class="card" style="display: none;">
-        <div class="card-content">
-            <h2>TV Show Title</h2>
-            <img src="" alt="TV Show Poster">
-            <ul>
-                <li>Bullet Point 1</li>
-                <li>Bullet Point 2</li>
-                <li>Bullet Point 3</li>
-            </ul>
-        </div>
-    </div>
+    <div id="card-container"></div>
     <div class="footer">
-        <button onclick="quoteAlert();">
-            Get A Quote!
-        </button>
-        <button onclick="removeLastCard();">
-            Remove A Card!
-        </button>
+        <button onclick="showMostPopularSong();">Most Popular Song</button>
+        <button onclick="showPlaylistCount();">Song in Most Spotify Playlists</button>
+        <button onclick="showSongMostInApplePlaylists();">Song in Most Apple Playlists</button>
+        <button onclick="showSongWithMostDiverseCollaboration();">Most Diverse Collaboration</button>
+        <button onclick="showYearWithMostReleases();">Year with Most Song Releases</button>
+        <button onclick="showSongLongevity();">Oldest Song</button>
+        <button onclick="showStreamGrowthRate();">Song with Highest Growth Rate</button>
+        <button onclick="showPlaylistRatio();">Highest Apple to Spotify Playlist Ratio</button>
+        <button onclick="showChartImpactScore();">Chart Impact Score</button>
+        <button onclick="showStreamLeaderboard();">Stream Leaderboard</button>
     </div>
+    <script src="scripts.js"></script>
 </body>
-
 </html>
